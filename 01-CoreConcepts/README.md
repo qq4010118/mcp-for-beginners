@@ -60,7 +60,7 @@ flowchart LR
     end
 ```
 
-- **MCP Hosts**: Programs like VSCode, Claude Desktop, IDEs, or AI tools that want to access data through MCP
+- **MCP Hosts**: Programs like VSCode, Android Studio, Claude Desktop, IDEs, or AI tools that want to access data through MCP
 - **MCP Clients**: Protocol clients that maintain 1:1 connections with servers
 - **MCP Servers**: Lightweight programs that each expose specific capabilities through the standardized Model Context Protocol
 - **Local Data Sources**: Your computer's files, databases, and services that MCP servers can securely access
