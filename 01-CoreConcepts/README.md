@@ -60,7 +60,7 @@ flowchart LR
     end
 ```
 
-- **MCP Hosts**: Programs like VSCode, Claude Desktop, IDEs, or AI tools that want to access data through MCP
+- **MCP Hosts**: Programs like VSCode, Android Studio, Claude Desktop, IDEs, or AI tools that want to access data through MCP
 - **MCP Clients**: Protocol clients that maintain 1:1 connections with servers
 - **MCP Servers**: Lightweight programs that each expose specific capabilities through the standardized Model Context Protocol
 - **Local Data Sources**: Your computer's files, databases, and services that MCP servers can securely access
@@ -72,7 +72,7 @@ The MCP Protocol is an evolving standard using date-based versioning (YYYY-MM-DD
 
 In the Model Context Protocol (MCP), **Hosts** are AI applications that serve as the primary interface through which users interact with the protocol. Hosts coordinate and manage connections to multiple MCP servers by creating dedicated MCP clients for each server connection. Examples of Hosts include:
 
-- **AI Applications**: Claude Desktop, Visual Studio Code, Claude Code
+- **AI Applications**: Claude Desktop, Visual Studio Code, Claude Code, Android Studio
 - **Development Environments**: IDEs and code editors with MCP integration  
 - **Custom Applications**: Purpose-built AI agents and tools
 
